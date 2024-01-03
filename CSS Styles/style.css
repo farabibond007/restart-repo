@@ -1,0 +1,35 @@
+h3{
+    color: magenta;
+    text-decoration: underline wavy brown;
+    /* !ekhane text decoration anchorntag er khetre none kore dite parbo */
+}
+p{
+    color: blueviolet;
+}
+.header{
+    height: 100px;
+    text-align: center;
+    background-image: url('../images/crisis.jpg');
+    background-size: 5%;
+    /* background-size: contain; */
+    /* ^ ekhane contain dile chobita purata original just contain kore full block e.Resize the background image to cover the entire container. cover e somehow cover korqay dei full blovk r moddhe. */
+    background-color: skyblue;
+    /* !Kono karone image ta dekha na gele bgc ta dekha jabe r ki. */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-blend-mode: multiply;
+    /* ? Blend mode ta use korei hosse background color r image er ekta integration korte. jemon ekhane picture r color er ekta blend dekha jabe. */
+}
+span{
+    border: 1px solid green;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 30px;
+    /* ?Jehetu inline tai height width niye kono kaaj korte partesi na. margin left right kaaj korbe kintu abar top bottom kaaj korbe na. ekhon jodi etake taw ami block er moto achoron korate chai jekhane egula shob kaaj kore tokhon ami display block kore dibo.oita jor kore block banai. abar inline e thekew block er moton achoron korani jaite pare. */
+    display: inline-block;
+    background-color: brown;
+    box-shadow: 10px 10px 10px black;
+}
+input[type="text"]{
+/* ^ eivabe ekta particular attrivute ke select kora jay. class er khetre dot , id te # r attribute e [] */
+}
